@@ -1,0 +1,62 @@
+.flex-row{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 3rem;
+}
+
+.flex-column{
+	display:flex;
+	flex-direction: column;
+}
+
+#line{
+	stroke-dasharray: 100;
+	stroke-dashoffset: 100;
+	transition: all 1s;
+}
+
+#circle{
+	stroke-dasharray: 227;
+	stroke-dashoffset: 227;
+	transition: all 5s steps(10);
+}
+
+#tick{
+	stroke-dasharray: 117;
+	stroke-dashoffset: 117;
+	transition: all 1s;
+}
+
+#line1{
+	stroke-dasharray: 100;
+	stroke-dashoffset: 100;
+	transition: all 5s;
+}
+
+#line2{
+	stroke-dasharray: 100;
+	stroke-dashoffset: 100;
+	transition: all 5s;
+}
+
+#line3{
+	stroke-dasharray: 100;
+	stroke-dashoffset: 100;
+	transition: all 5s;
+}
+
+#line.animate, #circle.animate, #tick.animate, #line1.animate, #line2.animate, #line3.animate{
+	stroke-dashoffset: 0;
+}
+
+#curve{
+	stroke-dasharray: 2020 !important;
+	stroke-dashoffset: 2020 !important;
+	transition: all 0s;
+}
+
+#curve.animate{
+	stroke-dashoffset: 0 !important;
+	transition: all 5s;
+}

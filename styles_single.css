@@ -1,0 +1,15 @@
+.flex-column{
+	display:flex;
+	flex-direction: column;
+}
+
+#line{
+	stroke-dasharray: 100;
+	stroke-dashoffset: 100;
+	transition: all 1s;
+}
+
+
+#line.animate{
+	stroke-dashoffset: 0;
+}
